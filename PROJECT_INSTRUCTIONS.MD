@@ -33,13 +33,13 @@ Make sure your Developer Tools are open at all times while working on this proje
 
 ## Get Started
 Create issue tickets from the items below to help you get started. 
-- [ ] Setup your firebase project and create the `.env` file with your keys. (Reference the [Firebase videos](https://vimeo.com/showcase/codetracker-firebase) if you need help getting started)
+- [x] Setup your firebase project and create the `.env` file with your keys. (Reference the [Firebase videos](https://vimeo.com/showcase/codetracker-firebase) if you need help getting started)
 - [ ] Plan your project. Take no more than an hour to plan (ERD, Flow Chart, Postman)
-- [ ] `git clone YOUR_GITHUB_REPO_LINK`
-- [ ] `cd` into the directory
-- [ ] Run `npm install` to install your dependencies
-- [ ] Type `code .` to open the project in VS Code
-- [ ] `npm start` to start your server
+- [x] `git clone YOUR_GITHUB_REPO_LINK`
+- [x] `cd` into the directory
+- [x] Run `npm install` to install your dependencies
+- [x] Type `code .` to open the project in VS Code
+- [x] `npm start` to start your server
 - [ ] Plan your project by creating the tickets you will work through using Github Projects
 - [ ] START CODING!
 
