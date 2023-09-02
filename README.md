@@ -74,6 +74,9 @@ init();
 
 - Update Firebase URL Settings
     - In Firebase under Authentication select sign in methods, scroll to Authorized domains. Add your Netlify URL.
+
+    Netlify URL: https://app.netlify.com/sites/nd-vocabulary/overview
+    
         
 ## More Info and Resources on Webpack
 - Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want to explore more.
