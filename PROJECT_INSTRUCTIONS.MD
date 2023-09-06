@@ -45,7 +45,7 @@ Create issue tickets from the items below to help you get started.
 
 # MVP Requirements
 [MVP Wireframe](https://www.figma.com/file/IW4jF3GnzCFLYbEXlgFNIZ/MVP)
-- [ ] An ERD of your data
+- [x] An ERD of your data
 - [ ] Use Firebase for DB and authentication
 - [ ] Technical Flow chart (timebox this)
 - [ ] The app has a navigation bar that includes:

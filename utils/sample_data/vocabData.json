@@ -1,82 +1,84 @@
 {
-  "-NdM5QvSsDRfT9h3mlFG": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "ipsum primis in",
-    "dateTime": "2023-02-19 22:59:49",
-    "languageTech": "ruby",
-    "uid": null,
-    "definition": "fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus"
-  },
-  "-NdM5QvTI2e2JEZLWPAd": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "eget tempus",
-    "dateTime": "2022-09-07 21:38:55",
-    "languageTech": "html",
-    "uid": null,
-    "definition": "molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus"
-  },
-  "-NdM5QvTI2e2JEZLWPAe": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "justo",
-    "dateTime": "2023-01-13 14:12:56",
-    "languageTech": "css",
-    "uid": null,
-    "definition": "turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est"
-  },
-  "-NdM5QvUV9L8F0MiBW4p": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "metus sapien ut",
-    "dateTime": "2023-07-12 23:31:52",
-    "languageTech": "html",
-    "uid": null,
-    "definition": "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam"
-  },
-  "-NdM5QvUV9L8F0MiBW4q": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "elementum eu interdum",
-    "dateTime": "2022-09-25 02:01:32",
-    "languageTech": "css",
-    "uid": null,
-    "definition": "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat"
-  },
-  "-NdM5QvVo2JKSaxPuSbC": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "nam tristique tortor",
-    "dateTime": "2022-10-10 07:08:10",
-    "languageTech": "ruby",
-    "uid": null,
-    "definition": "volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus"
-  },
-  "-NdM5QvVo2JKSaxPuSbD": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "ante",
-    "dateTime": "2022-09-11 21:55:22",
-    "languageTech": "python",
-    "uid": null,
-    "definition": "nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante"
-  },
-  "-NdM5QvWR_iTNikw_GHM": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "ipsum",
-    "dateTime": "2023-03-27 11:39:27",
-    "languageTech": "js",
-    "uid": null,
-    "definition": "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum"
-  },
-  "-NdM5QvWR_iTNikw_GHN": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "sed",
-    "dateTime": "2022-10-10 19:50:39",
-    "languageTech": "html",
-    "uid": null,
-    "definition": "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum"
-  },
-  "-NdM5QvX9UZh0IYfXeT4": {
-    "firebasekey": "AIzaSyAwM04KBAZhvB6qpFUld0NisodedgWNrXs",
-    "title": "augue",
-    "dateTime": "2023-07-30 05:15:41",
-    "languageTech": "ruby",
-    "uid": null,
-    "definition": "mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus"
+  "vocabulary": {
+    "-NdM5QvSsDRfT9h3mlFG": {
+      "dateTime": "2023-02-19 22:59:49",
+      "definition": "fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus",
+      "firebasekey": "-NdM5QvSsDRfT9h3mlFG",
+      "languageTech": "ruby",
+      "title": "ipsum primis in",
+      "uid": ""
+    },
+    "-NdM5QvTI2e2JEZLWPAd": {
+      "dateTime": "2022-09-07 21:38:55",
+      "definition": "molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus",
+      "firebasekey": "-NdM5QvTI2e2JEZLWPAd",
+      "languageTech": "html",
+      "title": "eget tempus",
+      "uid": ""
+    },
+    "-NdM5QvTI2e2JEZLWPAe": {
+      "dateTime": "2023-01-13 14:12:56",
+      "definition": "turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est",
+      "firebasekey": "-NdM5QvTI2e2JEZLWPAe",
+      "languageTech": "css",
+      "title": "justo",
+      "uid": ""
+    },
+    "-NdM5QvUV9L8F0MiBW4p": {
+      "dateTime": "2023-07-12 23:31:52",
+      "definition": "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
+      "firebasekey": "-NdM5QvUV9L8F0MiBW4p",
+      "languageTech": "html",
+      "title": "metus sapien ut",
+      "uid": ""
+    },
+    "-NdM5QvUV9L8F0MiBW4q": {
+      "dateTime": "2022-09-25 02:01:32",
+      "definition": "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
+      "firebasekey": "-NdM5QvUV9L8F0MiBW4q",
+      "languageTech": "css",
+      "title": "elementum eu interdum",
+      "uid": ""
+    },
+    "-NdM5QvVo2JKSaxPuSbC": {
+      "dateTime": "2022-10-10 07:08:10",
+      "definition": "volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus",
+      "firebasekey": "-NdM5QvVo2JKSaxPuSbC",
+      "languageTech": "ruby",
+      "title": "nam tristique tortor",
+      "uid": ""
+    },
+    "-NdM5QvVo2JKSaxPuSbD": {
+      "dateTime": "2022-09-11 21:55:22",
+      "definition": "nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante",
+      "firebasekey": "-NdM5QvVo2JKSaxPuSbD",
+      "languageTech": "python",
+      "title": "ante",
+      "uid": ""
+    },
+    "-NdM5QvWR_iTNikw_GHM": {
+      "dateTime": "2023-03-27 11:39:27",
+      "definition": "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum",
+      "firebasekey": "-NdM5QvWR_iTNikw_GHM",
+      "languageTech": "js",
+      "title": "ipsum",
+      "uid": ""
+    },
+    "-NdM5QvWR_iTNikw_GHN": {
+      "dateTime": "2022-10-10 19:50:39",
+      "definition": "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum",
+      "firebasekey": "-NdM5QvWR_iTNikw_GHN",
+      "languageTech": "html",
+      "title": "sed",
+      "uid": ""
+    },
+    "-NdM5QvX9UZh0IYfXeT4": {
+      "dateTime": "2023-07-30 05:15:41",
+      "definition": "mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
+      "firebasekey": "-NdM5QvX9UZh0IYfXeT4",
+      "languageTech": "ruby",
+      "title": "augue",
+      "uid": ""
+    }
   }
 }
