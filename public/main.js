@@ -6,7 +6,6 @@ import '../styles/main.scss';
 const init = () => {
   document.querySelector('#app').innerHTML = `
   <h1>Welcome to VoCaBuLaRy!</h1>`;
-
   ViewDirectorBasedOnUserAuthStatus();
 };
 
