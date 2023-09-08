@@ -21,9 +21,7 @@ const showVocab = (array) => {
         <div class="card">
           <div class="card-body" style="height: 180px;">
             <h5 class="card-title">${item.title}</h5>
-              <p class="card-text bold">${item.sale ? `<span class="badge badge-info sale-badge"><i class="fa fa-bell" aria-hidden="true"></i> Sale</span> $${item.price}` : `$${item.price}`}</p>
               <hr>
-              <i class="btn btn-success fas fa-eye" id="view-vocab-btn--${item.firebaseKey}"></i>
               <i id="edit-vocab-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
               <i id="delete-vocab-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
           </div>
