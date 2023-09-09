@@ -3,22 +3,17 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(157, 208, 248);
+  color: rgb(0, 97, 177);
   text-align: center;
   margin-top: 100px;
 }
 
 .navbar-dark .navbar-brand {
   font-family: "Oregano", cursive !important;
-  color: red;
+  color: rgb(36, 122, 243);
   font-weight: 900;
   font-size: 2em;
-}
-
-.cart-items {
-  height: 300px;
-  overflow: scroll;
 }
 
 .grey-box {
@@ -26,10 +21,6 @@ body {
   margin: 2px;
   width: 200px;
   height: 200px;
-}
-
-#cart-thumb img {
-  height: 100px;
 }
 
 .logout {
@@ -72,11 +63,6 @@ body {
     .card {
       width: 300px;
       margin: 5px;
-
-      .sale-badge {
-        font-size: 1em;
-        background-color: blue;
-      }
     }
 
     .table {
@@ -96,7 +82,7 @@ body {
     max-width: 60%;
   }
 
-  .description {
+  .definition {
     white-space: pre-wrap;
   }
 }

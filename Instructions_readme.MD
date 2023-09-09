@@ -7,8 +7,8 @@ main page
     Create Entry
     Login/Logout Button
   Body
-    filters for categories of vocabulary cards
-    cards for vocabulary
+    filters for categories of Vocabulary cards
+    cards for Vocabulary
 Create Vocabulary Card Page
   Form Values:
     Title

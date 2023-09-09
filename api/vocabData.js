@@ -4,7 +4,7 @@ import client from '../utils/client';
 const endpoint = client.databaseURL;
 
 const getVocab = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/books.json?orderBy="uid"&equalTo="${uid}"`, {
+  fetch(`${endpoint}/Vocabulary.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
@@ -20,8 +20,8 @@ const getVocab = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const deleteVocab = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary/${firebaseKey}.json`, {
+const deleteVocab = (firebasekey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary/${firebasekey}.json`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json'
@@ -31,8 +31,8 @@ const deleteVocab = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const getSingleVocab = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary/${firebaseKey}.json`, {
+const getSingleVocab = (firebasekey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary/${firebasekey}.json`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const getSingleVocab = (firebaseKey) => new Promise((resolve, reject) => {
 });
 
 const createVocab = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary.json`, {
+  fetch(`${endpoint}/Vocabulary.json`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -56,7 +56,7 @@ const createVocab = (payload) => new Promise((resolve, reject) => {
 });
 
 const updateVocab = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary/${payload.firebaseKey}.json`, {
+  fetch(`${endpoint}/Vocabulary/${payload.firebasekey}.json`, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'
@@ -69,10 +69,10 @@ const updateVocab = (payload) => new Promise((resolve, reject) => {
 
 //  Searching Vocabulary
 const searchVocab = (searchValue, uid) => new Promise((resolve, reject) => {
-  getVocab(uid).then((vocabArray) => {
-    const searchResults = vocabArray.filter((vocab) => (
-      vocab.title.toLowerCase().includes(searchValue)
-      || vocab.description.toLowerCase().includes(searchValue)
+  getVocab(uid).then((VocabArray) => {
+    const searchResults = VocabArray.filter((Vocab) => (
+      Vocab.title.toLowerCase().includes(searchValue)
+      || Vocab.definition.toLowerCase().includes(searchValue)
     ));
 
     resolve(searchResults);

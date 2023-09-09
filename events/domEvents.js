@@ -6,20 +6,20 @@ import { showVocab } from '../pages/vocabulary';
 /* eslint-disable no-alert */
 const domEvents = (user) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
-    if (e.target.id.includes('delete-vocab')) {
+    if (e.target.id.includes('delete-Vocab')) {
       if (window.confirm('Want to delete?')) {
-        const [, firebaseKey] = e.target.id.split('--');
-        deleteVocab(firebaseKey).then(getVocab).then(showVocab);
+        const [, firebasekey] = e.target.id.split('--');
+        deleteVocab(firebasekey).then(getVocab).then(showVocab);
       }
     }
 
-    if (e.target.id.includes('add-vocab-btn')) {
+    if (e.target.id.includes('add-Vocab-btn')) {
       addVocabForm(user.uid);
     }
 
-    if (e.target.id.includes('edit-vocab-btn')) {
-      const [, firebaseKey] = e.target.id.split('--');
-      getSingleVocab(firebaseKey).then((vocabObj) => addVocabForm(user.uid, vocabObj));
+    if (e.target.id.includes('edit-Vocab-btn')) {
+      const [, firebasekey] = e.target.id.split('--');
+      getSingleVocab(firebasekey).then((VocabObj) => addVocabForm(user.uid, VocabObj));
     }
   });
 };

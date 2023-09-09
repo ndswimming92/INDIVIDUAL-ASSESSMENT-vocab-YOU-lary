@@ -1,6 +1,7 @@
 import renderToDOM from '../../utils/renderToDom';
 
 const domBuilder = () => {
+  document.querySelector('#login-form-container').innerHTML = '';
   const domString = `
   <div id="navigation"></div>
   <div id="main-container">
