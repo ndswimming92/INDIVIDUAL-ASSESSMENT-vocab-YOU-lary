@@ -4,16 +4,16 @@ import { showVocab } from '../pages/vocabulary';
 const formEvents = (user) => {
   document.querySelector('#main-container').addEventListener('submit', (e) => {
     e.preventDefault();
-    if (e.target.id.includes('submit-vocab')) {
+    if (e.target.id.includes('submit-Vocab')) {
       const payload = {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
-        language_tech: document.querySelector('#language_tech').value,
+        languageTech: document.querySelector('#languageTech').value,
         uid: user.uid
       };
 
       createVocab(payload).then(({ name }) => {
-        const patchPayload = { firebaseKey: name };
+        const patchPayload = { firebasekey: name };
 
         updateVocab(patchPayload).then(() => {
           getVocab(user.uid).then(showVocab);
@@ -21,14 +21,14 @@ const formEvents = (user) => {
       });
     }
 
-    if (e.target.id.includes('update-vocab')) {
-      const [, firebaseKey] = e.target.id.split('--');
+    if (e.target.id.includes('update-Vocab')) {
+      const [, firebasekey] = e.target.id.split('--');
       const payload = {
         title: document.querySelector('#title').value,
         description: document.querySelector('#description').value,
-        language_tech: document.querySelector('#language_tech').value,
+        languageTech: document.querySelector('#languageTech').value,
         uid: user.uid,
-        firebaseKey,
+        firebasekey,
       };
 
       updateVocab(payload).then(() => {

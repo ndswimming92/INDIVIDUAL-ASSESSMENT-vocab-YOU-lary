@@ -9,7 +9,7 @@ const emptyVocab = () => {
 const showVocab = (array) => {
   clearDom();
 
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vocabulary</button>';
+  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-Vocab-btn">Add Vocabulary</button>';
   renderToDOM('#add-button', btnString);
   let domString = '';
 
@@ -22,8 +22,8 @@ const showVocab = (array) => {
           <div class="card-body" style="height: 180px;">
             <h5 class="card-title">${item.title}</h5>
               <hr>
-              <i id="edit-vocab-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
-              <i id="delete-vocab-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
+              <i id="edit-Vocab-btn--${item.firebasekey}" class="fas fa-edit btn btn-info"></i>
+              <i id="delete-Vocab-btn--${item.firebasekey}" class="btn btn-danger fas fa-trash-alt"></i>
           </div>
         </div>`;
     });

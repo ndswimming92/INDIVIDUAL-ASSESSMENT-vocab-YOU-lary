@@ -5,7 +5,7 @@ import '../styles/main.scss';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
-  <h1>Welcome to VoCaBuLaRy!</h1>`;
+  <h1>Welcome to VocabuLaRy!</h1>`;
   ViewDirectorBasedOnUserAuthStatus();
 };
 

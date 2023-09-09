@@ -1,6 +1,6 @@
-# vocab-YOU-lary
+# Vocab-YOU-lary
 
-In this student assessment, you will be creating an application that allows users to CRUD vocabulary cards, authenticate with Google, and filter.
+In this student assessment, you will be creating an application that allows users to CRUD Vocabulary cards, authenticate with Google, and filter.
 
 ## Learning Objectives
 - Single Responsibility Principle (each component/function should have one job)
@@ -46,18 +46,18 @@ Create issue tickets from the items below to help you get started.
 # MVP Requirements
 [MVP Wireframe](https://www.figma.com/file/IW4jF3GnzCFLYbEXlgFNIZ/MVP)
 - [x] An ERD of your data
-- [ ] Use Firebase for DB and authentication
+- [x] Use Firebase for DB and authentication
 - [ ] Technical Flow chart (timebox this)
 - [ ] The app has a navigation bar that includes:
-  - [ ] A Title/Logo (do not spend a ton of time on this until you reach MVP)
-  - [ ] Logout button
-  - [ ] Create Entry
-  - [ ] Any other options you would like to add
+  - [x] A Title/Logo (do not spend a ton of time on this until you reach MVP)
+  - [x] Logout button
+  - [x] Create Entry
+  - [x] Any other options you would like to add
 
 **The most basic requirement for this project is that a user can:**
 - [ ] Login and Logout of the application using Firebase Google Authentication
-- [ ] only see the vocabulary entries that they created
-- [ ] CREATE a vocabulary entry:
+- [ ] only see the Vocabulary entries that they created
+- [ ] CREATE a Vocabulary entry:
   - [ ] Title
   - [ ] Definition
   - [ ] Language/Tech
@@ -76,8 +76,8 @@ Create issue tickets from the items below to help you get started.
 
 ## Stretch 2
 [Stretch 2 Wireframe](https://www.figma.com/file/UC3Gi8HFRkZY8OIMOAUgL4/Stretch-2)
-- [ ] Users can search vocabulary entries
-- [ ] Users can add Language/Tech to the database and refrerence it on their vocabulary entries
+- [ ] Users can search Vocabulary entries
+- [ ] Users can add Language/Tech to the database and refrerence it on their Vocabulary entries
 - [ ] Users can only see the Languages/Tech categories that they created
 
 ## Stretch 3
