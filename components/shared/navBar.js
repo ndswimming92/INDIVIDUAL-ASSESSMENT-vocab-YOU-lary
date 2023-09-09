@@ -15,9 +15,6 @@ const navBar = () => {
                 All Vocabulary <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="create-entry">Create Entry</a>
-            </li>
             <li>
             <input
               class="form-control mr-sm-2"

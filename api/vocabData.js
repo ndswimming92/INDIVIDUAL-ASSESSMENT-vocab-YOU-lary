@@ -4,7 +4,7 @@ import client from '../utils/client';
 const endpoint = client.databaseURL;
 
 const getVocab = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/Vocabulary.json?orderBy="uid"&equalTo="${uid}"`, {
+  fetch(`${endpoint}/vocabulary.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
@@ -44,7 +44,7 @@ const getSingleVocab = (firebasekey) => new Promise((resolve, reject) => {
 });
 
 const createVocab = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/Vocabulary.json`, {
+  fetch(`${endpoint}/vocabulary.json`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -56,7 +56,7 @@ const createVocab = (payload) => new Promise((resolve, reject) => {
 });
 
 const updateVocab = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/Vocabulary/${payload.firebasekey}.json`, {
+  fetch(`${endpoint}/vocabulary/${payload.firebasekey}.json`, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'

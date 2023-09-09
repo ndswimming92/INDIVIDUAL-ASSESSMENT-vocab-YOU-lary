@@ -5,7 +5,8 @@ import navBar from '../components/shared/navBar';
 import domEvents from '../events/domEvents';
 import formEvents from '../events/formEvents';
 import navigationEvents from '../events/navigationEvents';
-import { emptyVocab, showVocab } from '../pages/vocabulary';
+import viewVocab from '../pages/viewVocab';
+import { emptyVocab } from '../pages/vocabulary';
 
 const startApp = (user) => {
   domBuilder(); // BUILD THE DOM
@@ -17,7 +18,7 @@ const startApp = (user) => {
 
   getVocab(user.uid).then((array) => {
     if (array.length) {
-      showVocab(array);
+      viewVocab(array);
     } else {
       emptyVocab();
     }
