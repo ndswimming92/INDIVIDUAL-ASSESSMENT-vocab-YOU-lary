@@ -13,7 +13,7 @@ const domEvents = (user) => {
       }
     }
 
-    if (e.target.id.includes('add-Vocab-btn')) {
+    if (e.target.id.includes('add-vocab-btn')) {
       addVocabForm(user.uid);
     }
 
