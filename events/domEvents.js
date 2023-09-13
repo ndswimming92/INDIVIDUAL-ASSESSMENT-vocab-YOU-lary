@@ -9,7 +9,15 @@ const domEvents = (user) => {
     if (e.target.id.includes('delete-Vocab')) {
       if (window.confirm('Want to delete?')) {
         const [, firebasekey] = e.target.id.split('--');
-        deleteVocab(firebasekey).then(getVocab).then(showVocab);
+        deleteVocab(firebasekey).then(() => {
+          getVocab(user.uid).then((array) => {
+            if (array.length) {
+              showVocab(array);
+            } else {
+              getVocab();
+            }
+          });
+        });
       }
     }
 
@@ -19,7 +27,7 @@ const domEvents = (user) => {
 
     if (e.target.id.includes('edit-Vocab-btn')) {
       const [, firebasekey] = e.target.id.split('--');
-      getSingleVocab(firebasekey).then((VocabObj) => addVocabForm(user.uid, VocabObj));
+      getSingleVocab(firebasekey).then((VocabObj) => addVocabForm(VocabObj));
     }
   });
 };

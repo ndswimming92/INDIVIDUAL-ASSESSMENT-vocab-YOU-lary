@@ -1,20 +1,6 @@
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
 
-// Create a new Date object
-const currentDate = new Date();
-
-// Get the individual components (year, month, day, hour, minute, second)
-const year = currentDate.getFullYear();
-const month = currentDate.getMonth() + 1; // Note: Months are 0-based, so add 1
-const day = currentDate.getDate();
-const hour = currentDate.getHours();
-const minute = currentDate.getMinutes();
-
-// Create a formatted date and time string
-const formattedDate = `${year}-${month}-${day}`;
-const formattedTime = `${hour}:${minute}`;
-
 const emptyVocab = () => {
   const domString = '<h1>No Vocabulary Found</h1>';
   renderToDOM('#store', domString);
@@ -41,7 +27,7 @@ const showVocab = (array) => {
               <hr>
               <p>${element.languageTech || ''}</p>
               <hr>
-              <p>${formattedDate} ${formattedTime}</p>
+              <p>${element.dateTime || ''}</p>
         </div>
         <div class="fa">
               <i id="edit-Vocab-btn--${element.firebasekey}" class="fa fa-edit"></i>
