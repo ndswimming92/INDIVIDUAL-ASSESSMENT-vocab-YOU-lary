@@ -73,6 +73,7 @@ const searchVocab = (searchValue, uid) => new Promise((resolve, reject) => {
     const searchResults = VocabArray.filter((Vocab) => (
       Vocab.title.toLowerCase().includes(searchValue)
       || Vocab.definition.toLowerCase().includes(searchValue)
+      || Vocab.languageTech.toLowerCase().includes(searchValue)
     ));
 
     resolve(searchResults);

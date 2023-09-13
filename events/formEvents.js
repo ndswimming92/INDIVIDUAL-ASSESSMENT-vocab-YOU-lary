@@ -5,16 +5,17 @@ const formEvents = (user) => {
   document.querySelector('#main-container').addEventListener('submit', (e) => {
     e.preventDefault();
     if (e.target.id.includes('submit-Vocab')) {
+      const currentTime = new Date().toLocaleString();
       const payload = {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
         languageTech: document.querySelector('#languageTech').value,
+        dateTime: currentTime,
         uid: user.uid
       };
 
       createVocab(payload).then(({ name }) => {
         const patchPayload = { firebasekey: name };
-
         updateVocab(patchPayload).then(() => {
           getVocab(user.uid).then(showVocab);
         });
@@ -22,11 +23,13 @@ const formEvents = (user) => {
     }
 
     if (e.target.id.includes('update-Vocab')) {
+      const currentTime = new Date().toLocaleString();
       const [, firebasekey] = e.target.id.split('--');
       const payload = {
         title: document.querySelector('#title').value,
-        description: document.querySelector('#description').value,
+        definition: document.querySelector('#definition').value,
         languageTech: document.querySelector('#languageTech').value,
+        dateTime: currentTime,
         uid: user.uid,
         firebasekey,
       };
